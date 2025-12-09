@@ -1,0 +1,86 @@
+body {
+font-family: Arial, sans-serif; /* Fonte padrão */
+background: #2b2b2b; /* Fundo cinza */
+color: #eee; /* Cor do texto base */
+padding: 20px;
+}
+
+h1 {
+font-size: 36px; 
+color: #263ab9; 
+text-align: center;
+}
+
+h2 {
+color: #116e9d; /* Cor personalizada */
+margin-top: 30px;
+}
+
+
+/* Parágrafos com estilo alterado */
+p {
+line-height: 1.6;
+color: #f2f2f2e1;
+}
+
+
+/* Imagens com width/height iguais */
+img {
+width: 200px; 
+height: 300px; 
+object-fit: cover; /* imagem não distorça  */
+margin: 10px;
+border-radius: 10px;
+}
+
+
+/* Estilo da lista não ordenada */
+ul {
+list-style-type: square; /* Mudando estilo dos bullets */
+}
+
+
+/* Estilo da lista ordenada */
+ol {
+padding-left: 20px; /* Ajustando espaçamento */
+}
+
+
+/* Links estilizados */
+a {
+color: #00b3ff; /* Cor personalizada */
+text-decoration: none; /* Removendo sublinhado */
+}
+
+
+a:hover {
+text-decoration: underline; 
+color:red;/* Estilo no hover obrigatório */
+}
+
+
+/* Estilo da tabela */
+table {
+width: 80%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+
+th, td {
+border: 1px solid #c3b7b7;
+padding: 10px;
+text-align: center;
+}
+
+
+/* Cabeçalho da tabela */
+th {
+background-color: #302d2d;
+}
+
+
+/* Tabela zebrada */
+tr:nth-child(even) {
+background-color: #191818;
+}
