@@ -55,7 +55,7 @@ text-decoration: none; /* Removendo sublinhado */
 
 a:hover {
 text-decoration: underline; 
-color:red;/* Estilo no hover obrigatório */
+color:red;/* Estilo no hover */
 }
 
 
@@ -83,4 +83,5 @@ background-color: #302d2d;
 /* Tabela zebrada */
 tr:nth-child(even) {
 background-color: #191818;
+
 }
